@@ -1,0 +1,148 @@
+.hero {
+    position: relative;
+    background-color: grey;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 40vh 0px;
+}
+
+/* .hero-text {
+    width: 60%;
+} */
+
+.hero img {
+    opacity: 0.5;
+    width: 100%;
+}
+
+.hero input {
+    display: none;
+    position: absolute;
+    left: 100%;
+    bottom: 100%;
+    color: var(--text);
+    padding: 13px 0px 13px 5px;
+    border: 1px solid var(--grey);
+    margin: -43px -172px;
+}
+.hero input.shown {
+    display: block;
+} 
+.top-nav button {
+    padding-left: 1rem;
+    background-color: white;
+    border: none;
+}
+
+.hero h1 {
+    font-size: 4.9rem;
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    margin-left: 50px;
+}
+
+.fullstop {
+    display: inline;
+    color: var(--pink);
+}
+
+.hero-blue {
+    color: var(--turq);
+    font-size: 5.3rem;
+    display: inline;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.hero-subtext {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* Below is the grid contents on the home page */
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    object-fit: contain;
+    grid-gap: 40px;
+    object-fit: cover;
+    margin: 2vw;
+}
+
+figure[class*="grid-image"] figcaption {
+    display: none;
+    position: absolute;
+	bottom: 1vw; left: 1vw;
+}
+
+figure[class*="grid-image"]:hover figcaption {
+    display: block;
+}
+
+figure[class*="grid-image"] {
+    position: relative;
+}
+
+picture[class*="grid-image"] {
+    object-fit: cover;
+    position: relative;
+}
+
+picture[class*="grid-image"] img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+}
+
+.gallery-card {
+    display: block;
+    width: 100%;
+}
+
+.gallery-card h5{
+    font-size: 3rem;
+    margin-top: 20px;
+    color: white;
+    max-width: 70%;
+}
+
+.gallery-card a{
+    font-size: 1.5rem;
+}
+
+.grid-image1 {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.grid-image2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.grid-image3 {
+    grid-area: 2 / 2 / 4 / 3;
+    
+}
+
+.grid-image4 {
+    grid-area: 3 / 1 / 5 / 2;
+}
+
+.grid-image5 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.grid-image6 {
+    grid-area: 5 / 1 / 7 / 2;
+}
+
+.grid-image7 {
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+.grid-image8 {
+    grid-area: 6 / 2 / 7 / 3;
+}

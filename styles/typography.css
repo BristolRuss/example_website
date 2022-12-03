@@ -1,0 +1,101 @@
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    margin: 3vh 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: black;
+    font-family: Poppins;
+}
+
+.subtext {
+    font-size: 0.9rem;
+    color: var(--grey);
+    margin-bottom: 4vh;
+}
+
+p {
+    font-family: Poppins;
+    color: var(--text);
+    font-weight: lighter;
+    margin-bottom: 5vh;
+    line-height: 2rem;
+}
+
+.top-nav {
+    font-family: Poppins;
+    color: var(--text);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center; 
+}
+
+ul {
+    color: var(--text);
+    font-family: Nunito;
+    line-height: 2rem;
+}
+
+ul a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.bulleted {
+    list-style-type: disc;
+    padding-left: 1vw;
+}
+
+
+/* below is the font Nunito which is used for most text throughout the document */
+
+@font-face {
+    font-family: 'Nunito';
+    font-weight: bold;
+    src: url("../fonts/Nunito/Nunito-Bold.ttf") format("truetype");
+  }
+@font-face {
+    font-family: 'Nunito';
+    font-weight: lighter;
+    src: url("../fonts/Nunito/Nunito-Light.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: 'Nunito';
+    font-weight: italic;
+    src: url("../fonts/Nunito/Nunito-Italic.ttf") format("truetype");
+  }
+
+
+
+  /* Below is the Poppins font */
+
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: italic;
+    src: url("../fonts/Poppins/Poppins-Italic.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: normal;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: bold;
+    src: url("../fonts/Poppins/Poppins-Bold.ttf")
+  }
+

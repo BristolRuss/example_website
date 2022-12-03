@@ -1,0 +1,45 @@
+.turquoise-tag {
+    font-family: Poppins;
+    display: inline;
+    background-color: var(--turq);
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.greylink {
+    font-family: Nunito;
+    color: var(--grey);
+    text-decoration: underline;
+}
+
+.nav-search-button {
+    display: inline-block;
+    height: 1vw;
+    width: 1vw;
+    background-color: var(--peach);
+    padding: 1vw;
+    border-radius: 50%;
+}
+.nav-search-button:hover {
+    background-color: var(--pink);
+}
+
+.pink-button {
+    background-color: var(--pink);
+    color: white;
+    padding: 2vh 1vw;
+    font-family: Nunito;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Search box on article page */
+.search-box {
+    color: var(--text);
+    font-size: 1rem;
+    padding: 2vh 3vw 2vh 1vh;
+    border: 1px solid var(--grey);
+    margin-right: 5px;
+}

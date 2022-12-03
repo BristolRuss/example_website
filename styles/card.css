@@ -1,0 +1,34 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+    margin: 3vw;
+    object-fit: contain;
+}
+
+div[class*="card"] {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10vh;
+}
+
+div[class*="card"] img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.card1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.card2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.card3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+.card4 {
+    grid-area: 2 / 2 / 3 / 3;
+}

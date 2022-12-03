@@ -1,0 +1,29 @@
+.article {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 30px;
+}
+.column2 {
+    padding-left: 50px;
+}
+
+.pink-search {
+    margin-bottom: 10vh;
+    display: inline-block;
+}
+
+.pink-search input {
+    width: 40%;
+}
+nav[class*="recent"] {
+    margin-bottom: 10vh;
+}
+
+.recent-posts li {
+    line-height: 2rem;
+}
+
+.recent-posts a {
+    color: var(--text);
+    text-decoration: none;
+}
